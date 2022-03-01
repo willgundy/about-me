@@ -57,7 +57,7 @@ header {
     justify-content: center;
     height: var(--header-height);
     box-shadow: var(--shadow);
-    color: white;
+    background-color: var(--color3);
 }
 
 h2 {
@@ -91,7 +91,7 @@ footer {
     display: none;
 }
 
-.lies-text {
+.lie-text {
     color: red;
     font-size: 2.5rem;
 }

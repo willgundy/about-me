@@ -5,8 +5,6 @@ const animalButton = document.getElementById('favorite-animal-btn');
 const animal = document.getElementById('animalDiv');
 const lieButton = document.getElementById('the-lie-btn');
 const theLie = document.getElementById('lieText');
-const lies = document.getElementsByClassName('lie');
-const truths = document.getElementsByClassName('truth');
 // set event listeners 
     // get user input
     // use user input to update state 
@@ -18,8 +16,16 @@ animalButton.addEventListener('click',
 
 lieButton.addEventListener('click',
     () => {
-        theLie.classList.remove('hidden');
-        lies.classList.add('lies-text');
-        truths.classList.add("truth-text");
+        theLie.classList.toggle('hidden');
+        const lie = document.getElementById('lie');
+        //const truths = document.getElementsByClassName("truth");
+        lie.classList.toggle('lie-text');
+        //truths.classList.toggle('truth-text');
+        if (lieButton.innerHTML === 'Show Me The Lie...') {
+            lieButton.innerHTML = 'Hide the Lie!';
+        } else {
+            lieButton.innerHTML = 'Show Me The Lie...';
+        }
+        
     });
 
