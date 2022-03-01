@@ -49,7 +49,7 @@ section {
     padding-bottom: var(--gutter);
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
+    border: solid 10px black;
 }
 
 header {
@@ -58,6 +58,7 @@ header {
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    border: solid 10px black;
 }
 
 h2 {
