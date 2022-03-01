@@ -49,16 +49,14 @@ section {
     padding-bottom: var(--gutter);
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
-    border: solid 10px black;
+    border: solid 2px var(--color1);
 }
 
 header {
     display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
+    justify-content: center;
     height: var(--header-height);
     box-shadow: var(--shadow);
-    border: solid 10px black;
 }
 
 h2 {
