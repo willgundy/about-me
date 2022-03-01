@@ -26,7 +26,7 @@ body {
     --gutter: 30px;
     --footer-height: 30px;
 
-    font-family: 'Titillium Web', sans-serif;
+    font-family: sans-serif;
     background-color: var(--color4);
 }
 
