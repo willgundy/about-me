@@ -11,6 +11,7 @@
 html, body {
     height: 100%;
     width: 100%;
+	margin: 0px;
 }
 
 html, body, div, span, applet, object, iframe, blockquote, pre,
@@ -25,14 +26,14 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	/* margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	/**font: inherit;**/
+	font: inherit; */
 	vertical-align: baseline;
 }
 
-ol, ul {
+/* ol, ul {
 	list-style: none;
-}
+} */
