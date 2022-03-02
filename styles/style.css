@@ -1,11 +1,11 @@
 body {
     /* feel free to update these css variables for a quick theme */
 
-    --color1: white;
-    --color2: white;
-    --color3: white;
-    --color4: white;
-    --color5: white;
+    --color1: #c6ebbeff;;
+    --color2: #a9dbb8ff;
+    --color3: #7ca5b8ff;
+    --color4: #38369aff;
+    --color5: #020887ff;
 
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
 
@@ -26,8 +26,8 @@ body {
     --gutter: 30px;
     --footer-height: 30px;
 
-    font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    font-family: sans-serif;
+    background-color: var(--color4);
 }
 
 main {
@@ -39,7 +39,7 @@ main {
 }
 
 section {
-    background-color: var(--color5);
+    background-color: var(--color1);
     max-width: 80%;
     display: flex;
     flex-direction: column;
@@ -54,10 +54,10 @@ section {
 
 header {
     display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
+    justify-content: center;
     height: var(--header-height);
     box-shadow: var(--shadow);
+    background-color: var(--color3);
 }
 
 h2 {
@@ -85,4 +85,18 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+}
+
+.hidden {
+    display: none;
+}
+
+.lie-text {
+    color: red;
+    font-size: 1.2rem;
+}
+
+.truth-text {
+    color: green;
+    font-size: 1.2rem;
 }

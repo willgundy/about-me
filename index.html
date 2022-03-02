@@ -8,19 +8,46 @@
             href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="./styles/style.css" />
-        <link rel="stylesheet" href="./styles/reset.css" />
         <link rel="stylesheet" href="./styles/global.css" />
+        <link rel="stylesheet" href="./styles/reset.css" />
+        <link rel="stylesheet" href="./styles/style.css" />
 
-        <title>Cool Web</title>
+        <title>About Me</title>
     </head>
 
     <body>
         <header>
-            <h1>Cool Web Project</h1>
+            <h1>About Me</h1>
         </header>
 
-        <main></main>
+        <main>
+            <section>
+                <h1>My name is Will!</h1>
+                <p>
+                    My pronouns are <strong>he/him</strong>.
+                </p>
+                <p>I live in <em>Bend, OR</em>.</p>
+                <button id="favorite-animal-btn">My favorite animal is a...</button>
+                <div id="animalDiv" class="hidden">Sloth</div>
+            </section>
+            <section id="twoTruthsAndALie">
+                <h1>Two Truths and a Lie</h1>
+                <ol>
+                    <li id="lie">
+                        I have dual citizenship in the US and Singapore
+                    </li>
+                    <li class="truth">
+                        Taylor Swift bought me beer once
+                    </li>
+                    <li class="truth">
+                        I have an irrational fear of the musical "Cats"
+                    </li>
+                </ol>
+                <button id="the-lie-btn">Show Me The Lie...</button>
+                <div id="lieText" class="hidden lie">I do not have citizenship in Singapore 
+                    but I did live there for two years.</div>
+            </section>
+        </main>
 
         <footer>&copy; 2021 Aspiring Software Developer</footer>
 
